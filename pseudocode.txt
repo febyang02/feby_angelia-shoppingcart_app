@@ -1,5 +1,5 @@
 START
-READ AND WRITE "product" with string
+READ AND WRITE "product" with number
 READ AND WRITE "total product" with string
 STORE "product" with "noodles"
 IF "product" == true
