@@ -1,0 +1,11 @@
+START
+READ AND WRITE "product" with string
+READ AND WRITE "total product" with string
+STORE "product" with "noodles"
+IF "product" == true
+    PRINT "product available"
+    INPUT the product to the cart
+    STORE "total product" with CALCULATE "the product to the cart"
+ELSE 
+    PRINT "product isn't available"
+END
